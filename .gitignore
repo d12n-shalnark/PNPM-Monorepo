@@ -37,3 +37,8 @@ next-env.d.ts
 
 # pnpm
 pnpm-debug.log*
+
+# Supabase
+supabase/.branches
+supabase/.temp
+supabase/functions/**/index.ts

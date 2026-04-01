@@ -3,6 +3,12 @@
 ## Overview
 A scalable monorepo structure using **pnpm workspaces** for package management and **Turborepo** for task orchestration and caching.
 
+## Backend Architecture
+- **Database**: Supabase (PostgreSQL with real-time subscriptions)
+- **Authentication**: Supabase Auth (OAuth, Magic Link, Email/Password)
+- **Storage**: Supabase Storage for file uploads
+- See [`supabase-architecture.md`](supabase-architecture.md) for detailed backend design.
+
 ## Directory Structure
 
 ```
